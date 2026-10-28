@@ -1,0 +1,33 @@
+Yangtanjar / 양탄자야르 0.4.11 Beta
+
+Cloth physics
+The cloth solver is adapted from siliconbag/under-the-rug.
+Copyright (c) 2026 siliconbag. MIT License.
+Source: https://github.com/siliconbag/under-the-rug
+Reference commit: 69af7610163ee8548fa775940c8b8c3676686d79
+See LICENSE-siliconbag.txt for the full permission and warranty notice.
+Changes include a C# / WPF port, desktop icon collision bounds, native Windows
+window integration, settings, a sixteen-design catalog and separate fringe geometry.
+
+Rug artwork
+The sixteen bundled rug images were supplied by the project owner. They are
+separate from the MIT-licensed solver and are not licensed under that MIT notice.
+Original artwork project files are not included in this beta distribution.
+
+Identity and inspiration
+An independent Windows app inspired by Terkel's desktop-rug concept.
+Not an official Terkel or desktop.cleaning product. This app does not include
+Terkel's original promotional video, source code or brand assets.
+
+Installer
+Built with Inno Setup 7.1.0, copyright Jordan Russell and Martijn Laan.
+https://jrsoftware.org/
+Original embedded copyright notices are retained.
+
+Preview backgrounds
+Drawn by the application's own Theme.cs code; no stock photography is used.
+
+한국어
+천 움직임 계산은 siliconbag/under-the-rug의 MIT 라이선스 코드를 옮겼습니다.
+양탄자 이미지와 앱 전체에 해당 MIT 라이선스가 적용되는 것은 아닙니다.
+Terkel의 아이디어에서 영감을 받은 독립 Windows 앱이며 공식 제품은 아닙니다.

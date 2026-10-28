@@ -1,0 +1,41 @@
+name: 사용 후기 / Beta feedback
+description: 며칠 써 본 느낌을 알려 주세요. Tell us how the beta feels after a few days.
+title: '[Feedback] '
+body:
+- type: input
+  id: version
+  attributes:
+    label: 앱 버전 / App version
+    value: 0.4.11
+  validations:
+    required: true
+- type: dropdown
+  id: duration
+  attributes:
+    label: 사용 기간 / How long have you used it?
+    options:
+    - 처음 사용 / Just tried it
+    - 1–3일 / 1–3 days
+    - 4–7일 / 4–7 days
+    - 일주일 이상 / More than a week
+  validations:
+    required: true
+- type: dropdown
+  id: keep
+  attributes:
+    label: 계속 켜 두고 싶나요? / Would you keep using it?
+    options:
+    - 네 / Yes
+    - 아직 모르겠어요 / Not sure
+    - 아니요 / No
+  validations:
+    required: true
+- type: textarea
+  id: experience
+  attributes:
+    label: 좋았던 점과 불편한 점 / What worked and what got in the way?
+  validations:
+    required: true
+- type: markdown
+  attributes:
+    value: 제보는 공개됩니다. 개인 정보는 넣지 마세요. / This report is public. Please leave out private information.

@@ -1,0 +1,97 @@
+name: 문제 제보 (한국어)
+description: 버벅임·접힘·설치·언어 문제를 알려 주세요.
+title: '[Bug] '
+body:
+- type: markdown
+  attributes:
+    value: 제보 감사합니다. 정확한 재현 순서가 가장 도움이 됩니다. 이 게시물과 첨부 파일은 공개됩니다. 개인 경로·파일 이름·알림을 가리고, 백업 파일 전체는 올리지 마세요.
+- type: input
+  id: version
+  attributes:
+    label: 앱 버전
+    value: 0.4.11
+  validations:
+    required: true
+- type: dropdown
+  id: kind
+  attributes:
+    label: 어떤 문제인가요?
+    options:
+    - 드래그 버벅임
+    - 접힘·테슬 표시
+    - 저장·복구·백업
+    - 설치·실행·종료
+    - 창 겹침·모니터·화면 배율
+    - 언어·글자·화면 배치
+    - 그 밖의 문제
+  validations:
+    required: true
+- type: textarea
+  id: steps
+  attributes:
+    label: 어떻게 하면 문제가 생기나요?
+    placeholder: '1. 앱을 열고…
+
+      2. 양탄자를…
+
+      3. …현상이 나타남'
+  validations:
+    required: true
+- type: textarea
+  id: actual
+  attributes:
+    label: 실제로 발생한 현상
+  validations:
+    required: true
+- type: textarea
+  id: expected
+  attributes:
+    label: 기대했던 동작
+  validations:
+    required: false
+- type: input
+  id: windows
+  attributes:
+    label: Windows 버전
+    placeholder: Windows 11 24H2 / Windows 10 22H2 / Unknown
+  validations:
+    required: true
+- type: dropdown
+  id: movement
+  attributes:
+    label: 사용한 움직임
+    options:
+    - 차분한 양탄자 / Calm
+    - 기본 양탄자 / Classic
+    - 두툼하고 묵직한 양탄자 / Thick & weighty
+    - 모르겠음 / Not sure
+  validations:
+    required: false
+- type: textarea
+  id: rug
+  attributes:
+    label: 양탄자 설정
+    placeholder: 디자인 번호 또는 직접 추가 여부, 크기, 테슬 켜기/끄기, 테슬 길이
+  validations:
+    required: false
+- type: textarea
+  id: system
+  attributes:
+    label: PC와 화면 정보 (알면 적어주세요)
+    placeholder: 'CPU / 그래픽카드 / 모니터 수 / 해상도 / 화면 배율(예: 150%)'
+  validations:
+    required: false
+- type: textarea
+  id: evidence
+  attributes:
+    label: 화면·짧은 영상·오류 기록 (선택)
+    description: 개인 정보를 가린 뒤 여기에 파일을 끌어 놓을 수 있습니다. .yrbackup이나 settings.xml 전체는 첨부하지 마세요.
+  validations:
+    required: false
+- type: checkboxes
+  id: public-report
+  attributes:
+    label: 공개 제보 확인
+    options:
+    - label: 이 제보에 공개하고 싶지 않은 개인 정보를 넣지 않았습니다.
+      required: true

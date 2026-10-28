@@ -1,0 +1,15 @@
+# Only public documentation and issue templates belong in this repository.
+*.exe
+*.msix
+*.zip
+*.yrbackup
+*.log
+settings.xml*
+Drafts/
+Backups/
+RugLibrary/
+work/
+source/
+assets/rugs/
+.DS_Store
+Thumbs.db

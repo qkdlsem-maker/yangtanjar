@@ -62,6 +62,6 @@ Windows 10 버전 2004 이상 / Windows 11, x64, .NET Framework 4.8 이상이 �
 
 관리자: [qkdlsem-maker](https://github.com/qkdlsem-maker). Terkel의 바탕화면 양탄자 아이디어에서 영감을 받은 독립 Windows 앱입니다. Terkel 또는 desktop.cleaning의 공식 제품은 아닙니다.
 
-천 움직임 계산은 MIT 라이선스의 [siliconbag/under-the-rug](https://github.com/siliconbag/under-the-rug)를 바탕으로 옮겼습니다. [출처 안내](THIRD-PARTY-NOTICES.txt)와 [원본 라이선스](LICENSE-siliconbag.txt)를 함께 제공합니다. 양탄자 디자인 이미지는 해당 MIT 라이선스와 별개입니다.
+천 움직임 계산은 MIT 라이선스의 [siliconbag/under-the-rug](https://github.com/siliconbag/under-the-rug)를 바탕으로 옮겼습니다. [출처 안내](THIRD-PARTY-NOTICES.txt)와 [원본 라이선스](docs/licenses/siliconbag-MIT.txt)를 함께 제공합니다. 양탄자 디자인 이미지는 해당 MIT 라이선스와 별개입니다.
 
 이 저장소에는 베타 소개·사용 안내·문제 제보 양식이 들어 있습니다. 앱 소스와 디자인 작업 원본은 포함하지 않습니다. 무료 베타라는 뜻이 앱 전체와 디자인을 MIT 라이선스로 공개한다는 뜻은 아닙니다.

@@ -62,6 +62,6 @@ The app has no account, advertising, analytics or automatic update downloads. Se
 
 Maintained by [qkdlsem-maker](https://github.com/qkdlsem-maker). This is an independent Windows app, inspired by Terkel's desktop-rug concept. It is not an official Terkel or desktop.cleaning release.
 
-The cloth solver is adapted from [siliconbag/under-the-rug](https://github.com/siliconbag/under-the-rug) under the MIT License. See [credits and notices](THIRD-PARTY-NOTICES.txt) and the [upstream license](LICENSE-siliconbag.txt). The bundled rug artwork is separate from that license.
+The cloth solver is adapted from [siliconbag/under-the-rug](https://github.com/siliconbag/under-the-rug) under the MIT License. See [credits and notices](THIRD-PARTY-NOTICES.txt) and the [upstream license](docs/licenses/siliconbag-MIT.txt). The bundled rug artwork is separate from that license.
 
 This repository contains the beta's documentation and issue forms. Application source code and original artwork project files are not included. A free beta does not mean the whole application or its artwork is MIT-licensed.
